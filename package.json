@@ -1,8 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "unjemanna",
+  "homepage": "https://setosejin.github.io/unjemanna/",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d .output/public",
     "build": "nuxt build",
     "dev": "npx nuxi dev",
     "generate": "nuxt generate",
@@ -10,6 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.9.0",
     "vue": "^3.4.6",
     "vue-router": "^4.2.5"
